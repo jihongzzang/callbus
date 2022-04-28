@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Community from 'pages/Community';
-import Home from 'pages/Home';
-import List from 'pages/List';
+import Community from 'components/Community/Community';
+import Home from 'components/Main/Home';
+import List from 'components/List/List';
 
 function Router() {
   return (

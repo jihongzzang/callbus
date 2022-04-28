@@ -43,5 +43,7 @@ export const flexCenter = css`
 `;
 
 export type Theme = typeof theme;
+
 export const styled = baseStyled as ThemedStyledInterface<Theme>;
+
 export default theme;

@@ -1,11 +1,7 @@
 import styled from 'styled-components';
 
-export default function Home() {
-  return (
-    <Container>
-      <h1>Home</h1>
-    </Container>
-  );
+export default function Community() {
+  return <Container>Community</Container>;
 }
 
 const Container = styled.div`
