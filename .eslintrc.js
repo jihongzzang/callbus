@@ -11,7 +11,11 @@ module.exports = {
   ],
   plugins: ['prettier', '@typescript-eslint'],
   ignorePatterns: ['node_modules/'],
+  parserOptions: {
+    parser: '@typescript-eslint/parser',
+  },
   rules: {
+    '@typescript-eslint/no-var-requires': 'off',
     'prettier/prettier': [
       'error',
       {
@@ -24,10 +28,5 @@ module.exports = {
         arrowParens: 'avoid',
       },
     ],
-
-    '@typescript-eslint/no-var-requires': 'off',
-  },
-  parserOptions: {
-    parser: '@typescript-eslint/parser',
   },
 };
